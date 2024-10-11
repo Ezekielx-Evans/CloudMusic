@@ -33,22 +33,31 @@ const menuItems = [
 
 .menu {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    padding-left: 30px;
     align-items: center;
     width: 150px;
     height: 50px;
     background-color: white;
     border-radius: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    gap: 10px;
 }
 
 .menu img {
     width: 32px;
 }
 
-.menu:hover {
-    background-color: #dadada;
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidebar a:hover {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+    transition: all 0.3s;
+}
+
+.router-link-active{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .favicon {

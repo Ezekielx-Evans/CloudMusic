@@ -5,7 +5,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomePage from '../components/HomePage.vue'
 import RankList from '@/components/RankList.vue'
 import SongList from '@/components/SongList.vue'
-import MvList from '@/components/MvList.vue'
+import MVList from '@/components/MVList.vue'
 import SingerList from '@/components/SingerList.vue'
 
 // 2. 定义路由，每个路由映射到一个组件
@@ -13,7 +13,7 @@ const routes = [
   { path: '/', component: HomePage },
   { path: '/rank', component: RankList },
   { path: "/song", component: SongList },
-  { path: "/mv", component: MvList },
+  { path: "/mv", component: MVList },
   { path: "/singer", component: SingerList},
 ]
 
