@@ -2,7 +2,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 // 1. 定义路由组件
-import HomePage from '../components/HomePage.vue'
+import HomePage from '@/components/HomePage.vue'
 import RankList from '@/components/RankList.vue'
 import SongList from '@/components/SongList.vue'
 import MVList from '@/components/MVList.vue'
