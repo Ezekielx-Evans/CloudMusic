@@ -34,6 +34,8 @@
     flex-direction: column;
     gap:20px;
     padding: 35px;
+    width: 150px;
+    height: 100%;
 }
 
 .menu {
@@ -43,8 +45,8 @@
     align-items: center;
     width: 150px;
     height: 50px;
-    background-color: antiquewhite;
+    background-color: white;
     border-radius: 10px;
-    
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 </style>
