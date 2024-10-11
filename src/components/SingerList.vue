@@ -1,5 +1,5 @@
 <template>
-TODO: MV
+TODO: 歌手
 </template>
 
 <script setup>
