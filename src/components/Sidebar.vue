@@ -22,10 +22,6 @@ const menuItems = [
 
 <style scoped>
 .sidebar {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    gap: 20px;
     padding: 35px;
     width: 220px;
     height: 100%;
@@ -40,6 +36,7 @@ const menuItems = [
     background-color: white;
     border-radius: 10px;
     gap: 10px;
+    margin-bottom: 20px;
 }
 
 .menu img {

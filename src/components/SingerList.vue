@@ -1,5 +1,7 @@
 <template>
-TODO: 歌手
+<div class="songer-contianer">
+
+</div>
 </template>
 
 <script setup>
@@ -7,5 +9,7 @@ TODO: 歌手
 </script>
 
 <style scoped>
-
+.songer-contianer{
+    padding: 20px;
+}
 </style>
